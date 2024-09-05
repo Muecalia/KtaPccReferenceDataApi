@@ -1,0 +1,1187 @@
+[12:35:40 Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[12:35:41 Microsoft.Extensions.Hosting.Internal.Host [Debug] Hosting starting
+[12:35:41 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://[::]:8080"
+[12:35:41 Microsoft.AspNetCore.Hosting.Diagnostics [Debug] Loaded hosting startup assembly "KtaPccReferenceDataApi"
+[12:35:41 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[12:35:41 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[12:35:41 Microsoft.Hosting.Lifetime [Information] Content root path: "/app"
+[12:35:41 Microsoft.Extensions.Hosting.Internal.Host [Debug] Hosting started
+[12:35:42 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGP"" accepted.
+[12:35:42 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGP"" started.
+[12:35:42 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGQ"" accepted.
+[12:35:42 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGQ"" started.
+[12:35:42 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger""" - null null
+[12:35:42 Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Debug] Wildcard detected, all requests with hosts will be allowed.
+[12:35:42 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger"'
+[12:35:42 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:35:42 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGQ"" completed keep alive response.
+[12:35:42 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger""" - 301 0 null 110.3338ms
+[12:35:42 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/index.html""" - null null
+[12:35:42 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/index.html"'
+[12:35:42 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:35:42 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGQ"" completed keep alive response.
+[12:35:42 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 159.1533ms
+[12:35:42 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/swagger-ui.css""" - null null
+[12:35:42 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/swagger-ui.css"'
+[12:35:42 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/index.css""" - null null
+[12:35:42 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:35:42 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGR"" accepted.
+[12:35:43 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/index.css"'
+[12:35:43 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGR"" started.
+[12:35:43 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGS"" accepted.
+[12:35:43 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:35:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/swagger-ui-bundle.js""" - null null
+[12:35:43 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGS"" started.
+[12:35:43 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGT"" accepted.
+[12:35:43 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/swagger-ui-bundle.js"'
+[12:35:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/swagger-ui-standalone-preset.js""" - null null
+[12:35:43 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGT"" started.
+[12:35:43 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:35:43 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/swagger-ui-standalone-preset.js"'
+[12:35:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/index.js""" - null null
+[12:35:43 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:35:43 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/index.js"'
+[12:35:43 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:35:43 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGT"" completed keep alive response.
+[12:35:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 27.8544ms
+[12:35:43 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/index.css"'. Physical path: '"N/A"'
+[12:35:43 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGP"" completed keep alive response.
+[12:35:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/index.css""" - 200 202 "text/css" 172.4747ms
+[12:35:43 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[12:35:43 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGQ"" completed keep alive response.
+[12:35:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/swagger-ui.css""" - 200 152034 "text/css" 275.3943ms
+[12:35:43 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+[12:35:43 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGS"" completed keep alive response.
+[12:35:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/swagger-ui-standalone-preset.js""" - 200 230293 "text/javascript" 299.4917ms
+[12:35:43 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+[12:35:43 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGR"" completed keep alive response.
+[12:35:43 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/swagger-ui-bundle.js""" - 200 1452753 "text/javascript" 566.9722ms
+[12:35:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/v1/swagger.json""" - null null
+[12:35:44 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/v1/swagger.json"'
+[12:35:44 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:35:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/favicon-32x32.png""" - null null
+[12:35:44 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/favicon-32x32.png"'
+[12:35:44 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:35:44 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[12:35:44 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGS"" completed keep alive response.
+[12:35:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 31.7069ms
+[12:35:45 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGR"" completed keep alive response.
+[12:35:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 352.7727ms
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKT0QMTGT"" received FIN.
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKT0QMTGS"" received FIN.
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKT0QMTGR"" received FIN.
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKT0QMTGP"" received FIN.
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKT0QMTGQ"" received FIN.
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKT0QMTGT"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKT0QMTGS"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKT0QMTGR"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGP"" disconnecting.
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKT0QMTGP"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGR"" disconnecting.
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGS"" disconnecting.
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGT"" disconnecting.
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGQ"" disconnecting.
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGS"" stopped.
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGR"" stopped.
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGP"" stopped.
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGT"" stopped.
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKT0QMTGQ"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:35:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGQ"" stopped.
+[12:36:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGU"" accepted.
+[12:36:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGU"" started.
+[12:36:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGV"" accepted.
+[12:36:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGV"" started.
+[12:36:18 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/favicon.ico""" - null null
+[12:36:18 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/favicon-16x16.png""" - null null
+[12:36:18 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/favicon.ico"'
+[12:36:18 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/favicon-16x16.png"'
+[12:36:18 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:36:18 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:36:18 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"'
+[12:36:18 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] The request path "" does not match the path filter
+[12:36:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGV"" completed keep alive response.
+[12:36:18 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/favicon-16x16.png""" - 200 665 "image/png" 5.1963ms
+[12:36:18 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[12:36:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGU"" completed keep alive response.
+[12:36:18 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/favicon.ico""" - 404 0 null 39.9739ms
+[12:36:18 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:32769""""/favicon.ico", Response status code: 404
+[12:36:18 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKT0QMTGU"" received FIN.
+[12:36:18 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKT0QMTGV"" received FIN.
+[12:36:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGU"" disconnecting.
+[12:36:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGV"" disconnecting.
+[12:36:18 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKT0QMTGU"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:36:18 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKT0QMTGV"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:36:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGU"" stopped.
+[12:36:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTGV"" stopped.
+[12:36:30 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTH0"" accepted.
+[12:36:30 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKT0QMTH0"" started.
+[12:36:30 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/api/Processo/processoDocumentoCaducado""?DataInicial=2016-06-01&DataFinal=2016-06-30" - null null
+[12:36:30 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] 1 candidate(s) found for the request path '"/api/Processo/processoDocumentoCaducado"'
+[12:36:30 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] Endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosDocumentosCaducados (KtaPccReferenceDataApi)"' with route pattern '"api/Processo/processoDocumentoCaducado"' is valid for the request path '"/api/Processo/processoDocumentoCaducado"'
+[12:36:30 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request matched endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosDocumentosCaducados (KtaPccReferenceDataApi)"'
+[12:36:30 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] Static files was skipped as the request already matched an endpoint.
+[12:36:30 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosDocumentosCaducados (KtaPccReferenceDataApi)"'
+[12:36:30 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetProcessosDocumentosCaducados\", controller = \"Processo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TotalAgilityApi.Wrappers.PagedResponse`1[KtaPccReferenceDataApi.Domain.Queries.Responses.ProcessosDocumentosCaducadosResponse]]] GetProcessosDocumentosCaducados(KtaPccReferenceDataApi.Domain.Queries.Requests.Request, System.Threading.CancellationToken)" on controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi").
+[12:36:30 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+[12:36:30 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+[12:36:30 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[12:36:30 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+[12:36:30 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[12:36:30 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Executing controller factory for controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi")
+[12:36:30 Microsoft.EntityFrameworkCore.Infrastructure [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+[12:38:35 Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[12:38:35 Microsoft.Extensions.Hosting.Internal.Host [Debug] Hosting starting
+[12:38:35 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://[::]:8080"
+[12:38:35 Microsoft.AspNetCore.Hosting.Diagnostics [Debug] Loaded hosting startup assembly "KtaPccReferenceDataApi"
+[12:38:35 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[12:38:35 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[12:38:35 Microsoft.Hosting.Lifetime [Information] Content root path: "/app"
+[12:38:35 Microsoft.Extensions.Hosting.Internal.Host [Debug] Hosting started
+[12:38:36 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LML"" accepted.
+[12:38:36 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LML"" started.
+[12:38:36 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMM"" accepted.
+[12:38:36 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMM"" started.
+[12:38:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/index.html""" - null null
+[12:38:36 Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Debug] Wildcard detected, all requests with hosts will be allowed.
+[12:38:36 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/index.html"'
+[12:38:36 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:38:36 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMM"" completed keep alive response.
+[12:38:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 387.5057ms
+[12:38:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/index.js""" - null null
+[12:38:36 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/index.js"'
+[12:38:36 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:38:36 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMM"" completed keep alive response.
+[12:38:36 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 37.3645ms
+[12:38:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/v1/swagger.json""" - null null
+[12:38:38 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/v1/swagger.json"'
+[12:38:38 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:38:38 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMM"" completed keep alive response.
+[12:38:38 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 183.0373ms
+[12:38:38 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKUKI6LMM"" received FIN.
+[12:38:38 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKUKI6LML"" received FIN.
+[12:38:38 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKUKI6LMM"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:38:38 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKUKI6LML"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:38:38 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LML"" disconnecting.
+[12:38:38 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMM"" disconnecting.
+[12:38:38 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMM"" stopped.
+[12:38:38 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LML"" stopped.
+[12:38:47 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMN"" accepted.
+[12:38:47 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMN"" started.
+[12:38:47 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMO"" accepted.
+[12:38:47 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMO"" started.
+[12:38:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/metrics""" - null null
+[12:38:47 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] 1 candidate(s) found for the request path '"/metrics"'
+[12:38:47 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request matched endpoint '"Prometheus metrics"'
+[12:38:47 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] Static files was skipped as the request already matched an endpoint.
+[12:38:47 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[12:38:47 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Prometheus metrics"'
+[12:38:47 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Prometheus metrics"'
+[12:38:47 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMN"" completed keep alive response.
+[12:38:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/metrics""" - 200 null "text/plain; version=0.0.4; charset=utf-8" 177.527ms
+[12:38:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/favicon.ico""" - null null
+[12:38:48 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/favicon.ico"'
+[12:38:48 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:38:48 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] The request path "" does not match the path filter
+[12:38:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMN"" completed keep alive response.
+[12:38:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/favicon.ico""" - 404 0 null 32.7379ms
+[12:38:48 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:32769""""/favicon.ico", Response status code: 404
+[12:38:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKUKI6LMN"" received FIN.
+[12:38:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKUKI6LMO"" received FIN.
+[12:38:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKUKI6LMO"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:38:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKUKI6LMN"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:38:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMO"" disconnecting.
+[12:38:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMO"" stopped.
+[12:38:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMN"" disconnecting.
+[12:38:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMN"" stopped.
+[12:39:10 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMP"" accepted.
+[12:39:10 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMP"" started.
+[12:39:10 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/api/Processo/processosRejeitados""?DataInicial=2016-06-01&DataFinal=2016-06-30" - null null
+[12:39:10 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] 1 candidate(s) found for the request path '"/api/Processo/processosRejeitados"'
+[12:39:10 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] Endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"' with route pattern '"api/Processo/processosRejeitados"' is valid for the request path '"/api/Processo/processosRejeitados"'
+[12:39:10 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request matched endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[12:39:10 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] Static files was skipped as the request already matched an endpoint.
+[12:39:10 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[12:39:11 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetProcessosRejeitados\", controller = \"Processo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TotalAgilityApi.Wrappers.PagedResponse`1[KtaPccReferenceDataApi.Domain.Queries.Responses.ProcessosDocumentosCaducadosResponse]]] GetProcessosRejeitados(KtaPccReferenceDataApi.Domain.Queries.Requests.Request, System.Threading.CancellationToken)" on controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi").
+[12:39:11 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+[12:39:11 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+[12:39:11 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[12:39:11 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+[12:39:11 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[12:39:11 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Executing controller factory for controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi")
+[12:39:11 Microsoft.EntityFrameworkCore.Infrastructure [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+[12:39:11 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Executed controller factory for controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi")
+[12:39:11 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' ...
+[12:39:11 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder [Debug] Attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' using the name '""' in request data ...
+[12:39:11 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataInicial"' of type '"System.String"' using the name '"DataInicial"' in request data ...
+[12:39:11 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Done attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataInicial"' of type '"System.String"'.
+[12:39:11 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataFinal"' of type '"System.String"' using the name '"DataFinal"' in request data ...
+[12:39:11 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Done attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataFinal"' of type '"System.String"'.
+[12:39:11 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder [Debug] Done attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[12:39:11 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[12:39:11 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to validate the bound parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' ...
+[12:39:11 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to validate the bound parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[12:39:11 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to bind parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"' ...
+[12:39:11 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to bind parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"'.
+[12:39:11 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to validate the bound parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"' ...
+[12:39:11 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to validate the bound parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"'.
+[12:39:11 Microsoft.EntityFrameworkCore.Infrastructure [Debug] Entity Framework Core "8.0.8" initialized '"KtaPccReferenceDataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"8.0.8"' with options: "CommandTimeout=3600 "
+[12:39:11 Microsoft.EntityFrameworkCore.Query [Debug] Compiling query expression: "
+"'"DbSet<ProcessosRejeitadosCanal>().FromSql(EXEC [dbo].[sp_GetProcessosRejeitadosMotivoRejeicaoAgente] @FirstDate={0}, @EndDate={1}, __p_0)
+"'
+[12:39:12 Microsoft.EntityFrameworkCore.Query [Debug] Generated query execution expression: "
+"'"queryContext => new FromSqlQueryingEnumerable<ProcessosRejeitadosCanal>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ProcessosRejeitadosCanal.ControlActionReason (string) Required, 0], [Property: ProcessosRejeitadosCanal.Job_Status (string) Required, 1], [Property: ProcessosRejeitadosCanal.Msisdn (string) Required, 2], [Property: ProcessosRejeitadosCanal.SapReference (string) Required, 3] }
+        SELECT k.ControlActionReason, k.Job_Status, k.Msisdn, k.SapReference
+        FROM EXEC [dbo].[sp_GetProcessosRejeitadosMotivoRejeicaoAgente] @FirstDate={0}, @EndDate={1}), 
+    ReaderColumn[] { ReaderColumn<object>, ReaderColumn<object>, ReaderColumn<object>, ReaderColumn<object> }, 
+    List<string> { \"ControlActionReason\", \"Job_Status\", \"Msisdn\", \"SapReference\" }, 
+    Func<QueryContext, DbDataReader, int[], ProcessosRejeitadosCanal>, 
+    KtaPccReferenceDataApi.Infraestrutura.Context.KtaPccReferenceDataContext, 
+    False, 
+    False, 
+    True
+)"'
+[12:39:12 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Creating DbConnection.
+[12:39:12 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Created DbConnection. (37ms).
+[12:39:12 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Opening connection to database '"Name_BD"' on server '"Server"'.
+[12:39:43 Microsoft.EntityFrameworkCore.Database.Connection [Error] An error occurred using the connection to database '"Name_BD"' on server '"Server"'.
+[12:39:43 Microsoft.EntityFrameworkCore.Query [Error] An exception occurred while iterating over the results of a query for context type '"KtaPccReferenceDataApi.Infraestrutura.Context.KtaPccReferenceDataContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): Name or service not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 startingTimestamp)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at Microsoft.Data.SqlClient.SNI.SNICommon.GetDnsIpAddresses(String serverName)
+   at Microsoft.Data.SqlClient.SNI.SNITCPHandle.Connect(String serverName, Int32 port, TimeSpan timeout, Boolean isInfiniteTimeout, SqlConnectionIPAddressPreference ipPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo)
+   at Microsoft.Data.SqlClient.SNI.SNITCPHandle..ctor(String serverName, Int32 port, Int64 timerExpire, Boolean parallel, SqlConnectionIPAddressPreference ipPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean tlsFirst, String hostNameInCertificate, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000"
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): Name or service not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 startingTimestamp)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at Microsoft.Data.SqlClient.SNI.SNICommon.GetDnsIpAddresses(String serverName)
+   at Microsoft.Data.SqlClient.SNI.SNITCPHandle.Connect(String serverName, Int32 port, TimeSpan timeout, Boolean isInfiniteTimeout, SqlConnectionIPAddressPreference ipPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo)
+   at Microsoft.Data.SqlClient.SNI.SNITCPHandle..ctor(String serverName, Int32 port, Int64 timerExpire, Boolean parallel, SqlConnectionIPAddressPreference ipPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean tlsFirst, String hostNameInCertificate, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+[12:39:43 KtaPccReferenceDataApi.Infraestrutura.Repositories.ProcessoRepository [Error] Erro ao carregar os dados do(a) Processos Rejeitados. Mensagem: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 35 - An internal exception was caught)
+[12:39:43 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[12:39:43 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+[12:39:43 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+[12:39:43 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[12:39:43 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+[12:39:43 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+[12:39:43 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "BadRequestObjectResult", writing value of type '"TotalAgilityApi.Wrappers.PagedResponse`1[[KtaPccReferenceDataApi.Domain.Queries.Responses.ProcessosRejeitadosResponse, KtaPccReferenceDataApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[12:39:44 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)" in 32995.1354ms
+[12:39:44 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[12:39:44 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMP"" completed keep alive response.
+[12:39:44 Microsoft.EntityFrameworkCore.Infrastructure [Debug] '"KtaPccReferenceDataContext"' disposed.
+[12:39:44 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Disposing connection to database '"Name_BD"' on server '"Server"'.
+[12:39:44 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Disposed connection to database '""' on server '""' (4ms).
+[12:39:44 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/api/Processo/processosRejeitados""?DataInicial=2016-06-01&DataFinal=2016-06-30" - 400 null "application/json; charset=utf-8" 33107.2475ms
+[12:39:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKUKI6LMP"" received FIN.
+[12:39:48 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKUKI6LMP"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:39:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMP"" disconnecting.
+[12:39:48 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMP"" stopped.
+[12:40:05 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMQ"" accepted.
+[12:40:05 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMQ"" started.
+[12:40:05 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMR"" accepted.
+[12:40:05 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMR"" started.
+[12:40:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32769""""/metrics""" - null null
+[12:40:05 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] 1 candidate(s) found for the request path '"/metrics"'
+[12:40:05 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request matched endpoint '"Prometheus metrics"'
+[12:40:05 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] Static files was skipped as the request already matched an endpoint.
+[12:40:05 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Prometheus metrics"'
+[12:40:05 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Prometheus metrics"'
+[12:40:05 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMQ"" completed keep alive response.
+[12:40:05 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32769""""/metrics""" - 200 null "text/plain; version=0.0.4; charset=utf-8" 58.3017ms
+[12:40:08 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKUKI6LMQ"" received FIN.
+[12:40:08 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKUKI6LMR"" received FIN.
+[12:40:08 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKUKI6LMQ"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:40:08 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMR"" disconnecting.
+[12:40:08 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMQ"" disconnecting.
+[12:40:08 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DKUKI6LMR"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:40:08 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMQ"" stopped.
+[12:40:08 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DKUKI6LMR"" stopped.
+[12:42:13 Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[12:42:13 Microsoft.Extensions.Hosting.Internal.Host [Debug] Hosting starting
+[12:42:13 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://[::]:8080"
+[12:42:13 Microsoft.AspNetCore.Hosting.Diagnostics [Debug] Loaded hosting startup assembly "KtaPccReferenceDataApi"
+[12:42:13 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[12:42:13 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[12:42:13 Microsoft.Hosting.Lifetime [Information] Content root path: "/app"
+[12:42:13 Microsoft.Extensions.Hosting.Internal.Host [Debug] Hosting started
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDJ"" accepted.
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDJ"" started.
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDK"" accepted.
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDK"" started.
+[12:42:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger""" - null null
+[12:42:14 Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Debug] Wildcard detected, all requests with hosts will be allowed.
+[12:42:14 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger"'
+[12:42:14 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDJ"" completed keep alive response.
+[12:42:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger""" - 301 0 null 162.3661ms
+[12:42:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.html""" - null null
+[12:42:14 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/index.html"'
+[12:42:14 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDJ"" completed keep alive response.
+[12:42:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 127.1693ms
+[12:42:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/swagger-ui.css""" - null null
+[12:42:14 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/swagger-ui.css"'
+[12:42:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.css""" - null null
+[12:42:14 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDL"" accepted.
+[12:42:14 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/index.css"'
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDL"" started.
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDM"" accepted.
+[12:42:14 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDN"" accepted.
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDM"" started.
+[12:42:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/swagger-ui-bundle.js""" - null null
+[12:42:14 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/swagger-ui-bundle.js"'
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDN"" started.
+[12:42:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/swagger-ui-standalone-preset.js""" - null null
+[12:42:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.js""" - null null
+[12:42:14 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/index.js"'
+[12:42:14 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:42:14 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/swagger-ui-standalone-preset.js"'
+[12:42:14 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:42:14 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDN"" completed keep alive response.
+[12:42:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 13.3091ms
+[12:42:14 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/index.css"'. Physical path: '"N/A"'
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDK"" completed keep alive response.
+[12:42:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.css""" - 200 202 "text/css" 70.529ms
+[12:42:14 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDJ"" completed keep alive response.
+[12:42:14 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+[12:42:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/swagger-ui.css""" - 200 152034 "text/css" 161.5376ms
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDM"" completed keep alive response.
+[12:42:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/swagger-ui-standalone-preset.js""" - 200 230293 "text/javascript" 135.5811ms
+[12:42:14 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+[12:42:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDL"" completed keep alive response.
+[12:42:14 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/swagger-ui-bundle.js""" - 200 1452753 "text/javascript" 273.915ms
+[12:42:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/v1/swagger.json""" - null null
+[12:42:15 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/v1/swagger.json"'
+[12:42:15 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:42:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/favicon-32x32.png""" - null null
+[12:42:15 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/favicon-32x32.png"'
+[12:42:15 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:42:15 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+[12:42:15 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDM"" completed keep alive response.
+[12:42:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 5.6039ms
+[12:42:15 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDL"" completed keep alive response.
+[12:42:15 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 142.0093ms
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDK"" received FIN.
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDM"" received FIN.
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDN"" received FIN.
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDJ"" received FIN.
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDL"" received FIN.
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDK"" disconnecting.
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDN"" disconnecting.
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDM"" disconnecting.
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDJ"" disconnecting.
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDK"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDN"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDM"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDJ"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDL"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDN"" stopped.
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDJ"" stopped.
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDK"" stopped.
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDL"" disconnecting.
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDM"" stopped.
+[12:43:49 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDL"" stopped.
+[12:44:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDO"" accepted.
+[12:44:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDO"" started.
+[12:44:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDP"" accepted.
+[12:44:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDP"" started.
+[12:44:18 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/metrics""" - null null
+[12:44:18 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] 1 candidate(s) found for the request path '"/metrics"'
+[12:44:18 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request matched endpoint '"Prometheus metrics"'
+[12:44:18 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] Static files was skipped as the request already matched an endpoint.
+[12:44:18 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[12:44:18 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Prometheus metrics"'
+[12:44:18 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Prometheus metrics"'
+[12:44:18 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDO"" completed keep alive response.
+[12:44:18 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/metrics""" - 200 null "text/plain; version=0.0.4; charset=utf-8" 211.6852ms
+[12:44:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/favicon.ico""" - null null
+[12:44:19 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/favicon.ico"'
+[12:44:19 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:44:19 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] The request path "" does not match the path filter
+[12:44:19 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDO"" completed keep alive response.
+[12:44:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/favicon.ico""" - 404 0 null 31.9544ms
+[12:44:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:32770""""/favicon.ico", Response status code: 404
+[12:44:23 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/favicon-16x16.png""" - null null
+[12:44:23 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/favicon-16x16.png"'
+[12:44:23 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:44:23 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/favicon.ico""" - null null
+[12:44:23 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/favicon.ico"'
+[12:44:23 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Information] Sending file. Request path: '"/favicon-16x16.png"'. Physical path: '"N/A"'
+[12:44:23 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:44:23 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDO"" completed keep alive response.
+[12:44:23 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] The request path "" does not match the path filter
+[12:44:23 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/favicon-16x16.png""" - 200 665 "image/png" 27.7572ms
+[12:44:23 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDP"" completed keep alive response.
+[12:44:23 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/favicon.ico""" - 404 0 null 21.0868ms
+[12:44:23 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:32770""""/favicon.ico", Response status code: 404
+[12:44:24 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDP"" received FIN.
+[12:44:24 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDO"" received FIN.
+[12:44:24 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDP"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:44:24 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDO"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:44:24 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDP"" disconnecting.
+[12:44:24 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDO"" disconnecting.
+[12:44:24 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDP"" stopped.
+[12:44:24 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDO"" stopped.
+[12:44:34 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDQ"" accepted.
+[12:44:34 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDQ"" started.
+[12:44:34 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/api/Processo/processosRejeitados""?DataInicial=2016-06-01&DataFinal=2016-06-30" - null null
+[12:44:34 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] 1 candidate(s) found for the request path '"/api/Processo/processosRejeitados"'
+[12:44:34 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] Endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"' with route pattern '"api/Processo/processosRejeitados"' is valid for the request path '"/api/Processo/processosRejeitados"'
+[12:44:34 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request matched endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[12:44:34 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] Static files was skipped as the request already matched an endpoint.
+[12:44:34 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[12:44:34 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetProcessosRejeitados\", controller = \"Processo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TotalAgilityApi.Wrappers.PagedResponse`1[KtaPccReferenceDataApi.Domain.Queries.Responses.ProcessosDocumentosCaducadosResponse]]] GetProcessosRejeitados(KtaPccReferenceDataApi.Domain.Queries.Requests.Request, System.Threading.CancellationToken)" on controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi").
+[12:44:34 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+[12:44:34 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+[12:44:34 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[12:44:34 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+[12:44:34 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[12:44:34 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Executing controller factory for controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi")
+[12:44:34 Microsoft.EntityFrameworkCore.Infrastructure [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+[12:44:34 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Executed controller factory for controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi")
+[12:44:34 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' ...
+[12:44:34 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder [Debug] Attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' using the name '""' in request data ...
+[12:44:34 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataInicial"' of type '"System.String"' using the name '"DataInicial"' in request data ...
+[12:44:34 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Done attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataInicial"' of type '"System.String"'.
+[12:44:34 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataFinal"' of type '"System.String"' using the name '"DataFinal"' in request data ...
+[12:44:34 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Done attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataFinal"' of type '"System.String"'.
+[12:44:34 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder [Debug] Done attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[12:44:34 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[12:44:34 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to validate the bound parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' ...
+[12:44:34 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to validate the bound parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[12:44:34 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to bind parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"' ...
+[12:44:34 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to bind parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"'.
+[12:44:34 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to validate the bound parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"' ...
+[12:44:34 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to validate the bound parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"'.
+[12:44:35 Microsoft.EntityFrameworkCore.Infrastructure [Debug] Entity Framework Core "8.0.8" initialized '"KtaPccReferenceDataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"8.0.8"' with options: "CommandTimeout=3600 "
+[12:44:35 Microsoft.EntityFrameworkCore.Query [Debug] Compiling query expression: "
+"'"DbSet<ProcessosRejeitadosCanal>().FromSql(EXEC [dbo].[sp_GetProcessosRejeitadosMotivoRejeicaoAgente] @FirstDate={0}, @EndDate={1}, __p_0)
+"'
+[12:44:35 Microsoft.EntityFrameworkCore.Query [Debug] Generated query execution expression: "
+"'"queryContext => new FromSqlQueryingEnumerable<ProcessosRejeitadosCanal>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ProcessosRejeitadosCanal.ControlActionReason (string) Required, 0], [Property: ProcessosRejeitadosCanal.Job_Status (string) Required, 1], [Property: ProcessosRejeitadosCanal.Msisdn (string) Required, 2], [Property: ProcessosRejeitadosCanal.SapReference (string) Required, 3] }
+        SELECT k.ControlActionReason, k.Job_Status, k.Msisdn, k.SapReference
+        FROM EXEC [dbo].[sp_GetProcessosRejeitadosMotivoRejeicaoAgente] @FirstDate={0}, @EndDate={1}), 
+    ReaderColumn[] { ReaderColumn<object>, ReaderColumn<object>, ReaderColumn<object>, ReaderColumn<object> }, 
+    List<string> { \"ControlActionReason\", \"Job_Status\", \"Msisdn\", \"SapReference\" }, 
+    Func<QueryContext, DbDataReader, int[], ProcessosRejeitadosCanal>, 
+    KtaPccReferenceDataApi.Infraestrutura.Context.KtaPccReferenceDataContext, 
+    False, 
+    False, 
+    True
+)"'
+[12:44:36 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Creating DbConnection.
+[12:44:36 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Created DbConnection. (75ms).
+[12:44:36 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Opening connection to database '"KTA_PCC_REFERENCE_DATA"' on server '"LSVQASSQLSTD01\QASSQLSVR"'.
+[12:44:47 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDR"" accepted.
+[12:44:47 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDR"" started.
+[12:44:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/metrics""" - null null
+[12:44:47 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] 1 candidate(s) found for the request path '"/metrics"'
+[12:44:47 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request matched endpoint '"Prometheus metrics"'
+[12:44:47 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] Static files was skipped as the request already matched an endpoint.
+[12:44:47 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Prometheus metrics"'
+[12:44:47 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Prometheus metrics"'
+[12:44:47 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDR"" completed keep alive response.
+[12:44:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/metrics""" - 200 null "text/plain; version=0.0.4; charset=utf-8" 48.2813ms
+[12:44:54 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDR"" received FIN.
+[12:44:54 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDR"" disconnecting.
+[12:44:54 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDR"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:44:54 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDR"" stopped.
+[12:45:07 Microsoft.EntityFrameworkCore.Database.Connection [Error] An error occurred using the connection to database '"KTA_PCC_REFERENCE_DATA"' on server '"LSVQASSQLSTD01\QASSQLSVR"'.
+[12:45:07 Microsoft.EntityFrameworkCore.Query [Error] An exception occurred while iterating over the results of a query for context type '"KtaPccReferenceDataApi.Infraestrutura.Context.KtaPccReferenceDataContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 26 - Error Locating Server/Instance Specified)
+ ---> System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): Name or service not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 startingTimestamp)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at Microsoft.Data.SqlClient.SNI.SNICommon.GetDnsIpAddresses(String serverName)
+   at Microsoft.Data.SqlClient.SNI.SSRP.SendUDPRequest(String browserHostname, Int32 port, Byte[] requestPacket, Int64 timerExpire, Boolean allIPsInParallel, SqlConnectionIPAddressPreference ipPreference)
+   at Microsoft.Data.SqlClient.SNI.SSRP.GetPortByInstanceName(String browserHostName, String instanceName, Int64 timerExpire, Boolean allIPsInParallel, SqlConnectionIPAddressPreference ipPreference)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.CreateTcpHandle(DataSource details, Int64 timerExpire, Boolean parallel, SqlConnectionIPAddressPreference ipPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean tlsFirst, String hostNameInCertificate, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000"
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 26 - Error Locating Server/Instance Specified)
+ ---> System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): Name or service not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 startingTimestamp)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at Microsoft.Data.SqlClient.SNI.SNICommon.GetDnsIpAddresses(String serverName)
+   at Microsoft.Data.SqlClient.SNI.SSRP.SendUDPRequest(String browserHostname, Int32 port, Byte[] requestPacket, Int64 timerExpire, Boolean allIPsInParallel, SqlConnectionIPAddressPreference ipPreference)
+   at Microsoft.Data.SqlClient.SNI.SSRP.GetPortByInstanceName(String browserHostName, String instanceName, Int64 timerExpire, Boolean allIPsInParallel, SqlConnectionIPAddressPreference ipPreference)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.CreateTcpHandle(DataSource details, Int64 timerExpire, Boolean parallel, SqlConnectionIPAddressPreference ipPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean tlsFirst, String hostNameInCertificate, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+[12:45:07 KtaPccReferenceDataApi.Infraestrutura.Repositories.ProcessoRepository [Error] Erro ao carregar os dados do(a) Processos Rejeitados. Mensagem: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 26 - Error Locating Server/Instance Specified)
+[12:45:07 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[12:45:07 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+[12:45:07 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+[12:45:07 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[12:45:07 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+[12:45:07 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+[12:45:07 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "BadRequestObjectResult", writing value of type '"TotalAgilityApi.Wrappers.PagedResponse`1[[KtaPccReferenceDataApi.Domain.Queries.Responses.ProcessosRejeitadosResponse, KtaPccReferenceDataApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[12:45:07 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)" in 33440.7863ms
+[12:45:07 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[12:45:07 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDQ"" completed keep alive response.
+[12:45:07 Microsoft.EntityFrameworkCore.Infrastructure [Debug] '"KtaPccReferenceDataContext"' disposed.
+[12:45:07 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Disposing connection to database '"KTA_PCC_REFERENCE_DATA"' on server '"LSVQASSQLSTD01\QASSQLSVR"'.
+[12:45:07 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Disposed connection to database '""' on server '""' (2ms).
+[12:45:07 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/api/Processo/processosRejeitados""?DataInicial=2016-06-01&DataFinal=2016-06-30" - 400 null "application/json; charset=utf-8" 33573.3211ms
+[12:45:14 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDQ"" received FIN.
+[12:45:14 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDQ"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:45:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDQ"" disconnecting.
+[12:45:14 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDQ"" stopped.
+[12:47:52 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDS"" accepted.
+[12:47:52 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDS"" started.
+[12:47:52 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/api/Processo/processosRejeitados""?DataInicial=2016-06-01&DataFinal=2016-06-30" - null null
+[12:47:52 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] 1 candidate(s) found for the request path '"/api/Processo/processosRejeitados"'
+[12:47:52 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] Endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"' with route pattern '"api/Processo/processosRejeitados"' is valid for the request path '"/api/Processo/processosRejeitados"'
+[12:47:52 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request matched endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[12:47:52 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] Static files was skipped as the request already matched an endpoint.
+[12:47:52 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[12:47:52 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetProcessosRejeitados\", controller = \"Processo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TotalAgilityApi.Wrappers.PagedResponse`1[KtaPccReferenceDataApi.Domain.Queries.Responses.ProcessosDocumentosCaducadosResponse]]] GetProcessosRejeitados(KtaPccReferenceDataApi.Domain.Queries.Requests.Request, System.Threading.CancellationToken)" on controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi").
+[12:47:52 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+[12:47:52 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+[12:47:52 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[12:47:52 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+[12:47:52 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[12:47:52 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Executing controller factory for controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi")
+[12:47:52 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Executed controller factory for controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi")
+[12:47:52 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' ...
+[12:47:52 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder [Debug] Attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' using the name '""' in request data ...
+[12:47:52 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataInicial"' of type '"System.String"' using the name '"DataInicial"' in request data ...
+[12:47:52 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Done attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataInicial"' of type '"System.String"'.
+[12:47:52 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataFinal"' of type '"System.String"' using the name '"DataFinal"' in request data ...
+[12:47:52 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Done attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataFinal"' of type '"System.String"'.
+[12:47:52 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder [Debug] Done attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[12:47:52 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[12:47:52 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to validate the bound parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' ...
+[12:47:52 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to validate the bound parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[12:47:52 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to bind parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"' ...
+[12:47:52 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to bind parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"'.
+[12:47:52 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to validate the bound parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"' ...
+[12:47:52 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to validate the bound parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"'.
+[12:47:52 Microsoft.EntityFrameworkCore.Infrastructure [Debug] Entity Framework Core "8.0.8" initialized '"KtaPccReferenceDataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"8.0.8"' with options: "CommandTimeout=3600 "
+[12:47:52 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Creating DbConnection.
+[12:47:52 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Created DbConnection. (1ms).
+[12:47:52 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Opening connection to database '"KTA_PCC_REFERENCE_DATA"' on server '"LSVQASSQLSTD01\QASSQLSVR"'.
+[12:47:57 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDT"" accepted.
+[12:47:57 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDT"" started.
+[12:47:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/metrics""" - null null
+[12:47:57 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] 1 candidate(s) found for the request path '"/metrics"'
+[12:47:57 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request matched endpoint '"Prometheus metrics"'
+[12:47:57 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] Static files was skipped as the request already matched an endpoint.
+[12:47:57 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Prometheus metrics"'
+[12:47:57 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Prometheus metrics"'
+[12:47:57 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDT"" completed keep alive response.
+[12:47:57 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/metrics""" - 200 null "text/plain; version=0.0.4; charset=utf-8" 49.0244ms
+[12:48:04 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDT"" received FIN.
+[12:48:04 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDT"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:48:04 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDT"" disconnecting.
+[12:48:04 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDT"" stopped.
+[12:48:22 Microsoft.EntityFrameworkCore.Database.Connection [Error] An error occurred using the connection to database '"KTA_PCC_REFERENCE_DATA"' on server '"LSVQASSQLSTD01\QASSQLSVR"'.
+[12:48:22 Microsoft.EntityFrameworkCore.Query [Error] An exception occurred while iterating over the results of a query for context type '"KtaPccReferenceDataApi.Infraestrutura.Context.KtaPccReferenceDataContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 26 - Error Locating Server/Instance Specified)
+ ---> System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): Name or service not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 startingTimestamp)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at Microsoft.Data.SqlClient.SNI.SNICommon.GetDnsIpAddresses(String serverName)
+   at Microsoft.Data.SqlClient.SNI.SSRP.SendUDPRequest(String browserHostname, Int32 port, Byte[] requestPacket, Int64 timerExpire, Boolean allIPsInParallel, SqlConnectionIPAddressPreference ipPreference)
+   at Microsoft.Data.SqlClient.SNI.SSRP.GetPortByInstanceName(String browserHostName, String instanceName, Int64 timerExpire, Boolean allIPsInParallel, SqlConnectionIPAddressPreference ipPreference)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.CreateTcpHandle(DataSource details, Int64 timerExpire, Boolean parallel, SqlConnectionIPAddressPreference ipPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean tlsFirst, String hostNameInCertificate, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000"
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 26 - Error Locating Server/Instance Specified)
+ ---> System.Net.Sockets.SocketException (00000005, 0xFFFDFFFF): Name or service not known
+   at System.Net.Dns.GetHostEntryOrAddressesCore(String hostName, Boolean justAddresses, AddressFamily addressFamily, Nullable`1 startingTimestamp)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress, AddressFamily family)
+   at Microsoft.Data.SqlClient.SNI.SNICommon.GetDnsIpAddresses(String serverName)
+   at Microsoft.Data.SqlClient.SNI.SSRP.SendUDPRequest(String browserHostname, Int32 port, Byte[] requestPacket, Int64 timerExpire, Boolean allIPsInParallel, SqlConnectionIPAddressPreference ipPreference)
+   at Microsoft.Data.SqlClient.SNI.SSRP.GetPortByInstanceName(String browserHostName, String instanceName, Int64 timerExpire, Boolean allIPsInParallel, SqlConnectionIPAddressPreference ipPreference)
+   at Microsoft.Data.SqlClient.SNI.SNIProxy.CreateTcpHandle(DataSource details, Int64 timerExpire, Boolean parallel, SqlConnectionIPAddressPreference ipPreference, String cachedFQDN, SQLDNSInfo& pendingDNSInfo, Boolean tlsFirst, String hostNameInCertificate, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+[12:48:22 KtaPccReferenceDataApi.Infraestrutura.Repositories.ProcessoRepository [Error] Erro ao carregar os dados do(a) Processos Rejeitados. Mensagem: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 26 - Error Locating Server/Instance Specified)
+[12:48:22 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[12:48:22 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+[12:48:22 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+[12:48:22 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[12:48:22 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+[12:48:22 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+[12:48:22 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "BadRequestObjectResult", writing value of type '"TotalAgilityApi.Wrappers.PagedResponse`1[[KtaPccReferenceDataApi.Domain.Queries.Responses.ProcessosRejeitadosResponse, KtaPccReferenceDataApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[12:48:22 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)" in 30181.0534ms
+[12:48:22 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[12:48:22 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDS"" completed keep alive response.
+[12:48:22 Microsoft.EntityFrameworkCore.Infrastructure [Debug] '"KtaPccReferenceDataContext"' disposed.
+[12:48:22 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Disposing connection to database '"KTA_PCC_REFERENCE_DATA"' on server '"LSVQASSQLSTD01\QASSQLSVR"'.
+[12:48:22 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Disposed connection to database '""' on server '""' (3ms).
+[12:48:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/api/Processo/processosRejeitados""?DataInicial=2016-06-01&DataFinal=2016-06-30" - 400 null "application/json; charset=utf-8" 30217.069ms
+[12:48:24 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDS"" received FIN.
+[12:48:24 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDS"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:48:24 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDS"" disconnecting.
+[12:48:24 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDS"" stopped.
+[12:50:31 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDU"" accepted.
+[12:50:31 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDU"" started.
+[12:50:31 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDV"" accepted.
+[12:50:31 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDV"" started.
+[12:50:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/metrics""" - null null
+[12:50:31 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] 1 candidate(s) found for the request path '"/metrics"'
+[12:50:31 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request matched endpoint '"Prometheus metrics"'
+[12:50:31 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] Static files was skipped as the request already matched an endpoint.
+[12:50:31 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Prometheus metrics"'
+[12:50:31 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Prometheus metrics"'
+[12:50:31 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDU"" completed keep alive response.
+[12:50:31 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/metrics""" - 200 null "text/plain; version=0.0.4; charset=utf-8" 55.064ms
+[12:50:34 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDV"" received FIN.
+[12:50:34 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDU"" received FIN.
+[12:50:34 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDV"" disconnecting.
+[12:50:34 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDU"" disconnecting.
+[12:50:34 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDV"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:50:34 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL0LGMRDU"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:50:34 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDV"" stopped.
+[12:50:34 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL0LGMRDU"" stopped.
+[12:53:44 Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[12:53:44 Microsoft.Extensions.Hosting.Internal.Host [Debug] Hosting starting
+[12:53:45 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://[::]:8080"
+[12:53:45 Microsoft.AspNetCore.Hosting.Diagnostics [Debug] Loaded hosting startup assembly "KtaPccReferenceDataApi"
+[12:53:45 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[12:53:45 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[12:53:45 Microsoft.Hosting.Lifetime [Information] Content root path: "/app"
+[12:53:45 Microsoft.Extensions.Hosting.Internal.Host [Debug] Hosting started
+[12:53:45 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL73L0BU5"" accepted.
+[12:53:45 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL73L0BU6"" accepted.
+[12:53:45 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL73L0BU5"" started.
+[12:53:45 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL73L0BU6"" started.
+[12:53:45 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.html""" - null null
+[12:53:45 Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Debug] Wildcard detected, all requests with hosts will be allowed.
+[12:53:45 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/index.html"'
+[12:53:45 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:53:46 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL73L0BU5"" completed keep alive response.
+[12:53:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 237.2379ms
+[12:53:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.js""" - null null
+[12:53:46 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/index.js"'
+[12:53:46 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:53:46 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL73L0BU5"" completed keep alive response.
+[12:53:46 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 39.7416ms
+[12:53:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/v1/swagger.json""" - null null
+[12:53:47 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/v1/swagger.json"'
+[12:53:47 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:53:47 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL73L0BU5"" completed keep alive response.
+[12:53:47 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 276.304ms
+[12:58:17 Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[12:58:18 Microsoft.Extensions.Hosting.Internal.Host [Debug] Hosting starting
+[12:58:18 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://[::]:8080"
+[12:58:18 Microsoft.AspNetCore.Hosting.Diagnostics [Debug] Loaded hosting startup assembly "KtaPccReferenceDataApi"
+[12:58:18 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[12:58:18 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[12:58:18 Microsoft.Hosting.Lifetime [Information] Content root path: "/app"
+[12:58:18 Microsoft.Extensions.Hosting.Internal.Host [Debug] Hosting started
+[12:58:19 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OE"" accepted.
+[12:58:19 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OF"" accepted.
+[12:58:19 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OE"" started.
+[12:58:19 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OF"" started.
+[12:58:19 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL9L756OF"" received FIN.
+[12:58:19 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL9L756OF"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:58:19 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.html""" - null null
+[12:58:19 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OF"" disconnecting.
+[12:58:19 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OF"" stopped.
+[12:58:19 Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Debug] Allowed hosts: "localhost;  10.25.194.18"
+[12:58:19 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/index.html"'
+[12:58:19 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:58:20 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OE"" completed keep alive response.
+[12:58:20 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 378.2411ms
+[12:58:20 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.js""" - null null
+[12:58:20 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/index.js"'
+[12:58:20 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:58:20 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OE"" completed keep alive response.
+[12:58:20 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 43.5587ms
+[12:58:21 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/v1/swagger.json""" - null null
+[12:58:21 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/v1/swagger.json"'
+[12:58:21 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[12:58:22 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OE"" completed keep alive response.
+[12:58:22 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 292.6782ms
+[12:58:29 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL9L756OE"" received FIN.
+[12:58:29 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL9L756OE"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:58:29 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OE"" disconnecting.
+[12:58:29 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OE"" stopped.
+[12:59:03 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OG"" accepted.
+[12:59:03 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OG"" started.
+[12:59:03 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/api/Processo/processosRejeitados""?DataInicial=2016-06-01&DataFinal=2016-06-30" - null null
+[12:59:03 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] 1 candidate(s) found for the request path '"/api/Processo/processosRejeitados"'
+[12:59:03 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] Endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"' with route pattern '"api/Processo/processosRejeitados"' is valid for the request path '"/api/Processo/processosRejeitados"'
+[12:59:03 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request matched endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[12:59:03 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] Static files was skipped as the request already matched an endpoint.
+[12:59:04 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[12:59:04 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[12:59:04 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetProcessosRejeitados\", controller = \"Processo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TotalAgilityApi.Wrappers.PagedResponse`1[KtaPccReferenceDataApi.Domain.Queries.Responses.ProcessosDocumentosCaducadosResponse]]] GetProcessosRejeitados(KtaPccReferenceDataApi.Domain.Queries.Requests.Request, System.Threading.CancellationToken)" on controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi").
+[12:59:04 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+[12:59:04 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+[12:59:04 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[12:59:04 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+[12:59:04 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[12:59:04 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Executing controller factory for controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi")
+[12:59:04 Microsoft.EntityFrameworkCore.Infrastructure [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+[12:59:04 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Executed controller factory for controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi")
+[12:59:04 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' ...
+[12:59:04 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder [Debug] Attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' using the name '""' in request data ...
+[12:59:04 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataInicial"' of type '"System.String"' using the name '"DataInicial"' in request data ...
+[12:59:04 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Done attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataInicial"' of type '"System.String"'.
+[12:59:04 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataFinal"' of type '"System.String"' using the name '"DataFinal"' in request data ...
+[12:59:04 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Done attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataFinal"' of type '"System.String"'.
+[12:59:04 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder [Debug] Done attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[12:59:04 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[12:59:04 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to validate the bound parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' ...
+[12:59:04 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to validate the bound parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[12:59:04 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to bind parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"' ...
+[12:59:04 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to bind parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"'.
+[12:59:04 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to validate the bound parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"' ...
+[12:59:04 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to validate the bound parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"'.
+[12:59:04 Microsoft.EntityFrameworkCore.Infrastructure [Debug] Entity Framework Core "8.0.8" initialized '"KtaPccReferenceDataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"8.0.8"' with options: "CommandTimeout=3600 "
+[12:59:05 Microsoft.EntityFrameworkCore.Query [Debug] Compiling query expression: "
+"'"DbSet<ProcessosRejeitadosCanal>().FromSql(EXEC [dbo].[sp_GetProcessosRejeitadosMotivoRejeicaoAgente] @FirstDate={0}, @EndDate={1}, __p_0)
+"'
+[12:59:05 Microsoft.EntityFrameworkCore.Query [Debug] Generated query execution expression: "
+"'"queryContext => new FromSqlQueryingEnumerable<ProcessosRejeitadosCanal>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ProcessosRejeitadosCanal.ControlActionReason (string) Required, 0], [Property: ProcessosRejeitadosCanal.Job_Status (string) Required, 1], [Property: ProcessosRejeitadosCanal.Msisdn (string) Required, 2], [Property: ProcessosRejeitadosCanal.SapReference (string) Required, 3] }
+        SELECT k.ControlActionReason, k.Job_Status, k.Msisdn, k.SapReference
+        FROM EXEC [dbo].[sp_GetProcessosRejeitadosMotivoRejeicaoAgente] @FirstDate={0}, @EndDate={1}), 
+    ReaderColumn[] { ReaderColumn<object>, ReaderColumn<object>, ReaderColumn<object>, ReaderColumn<object> }, 
+    List<string> { \"ControlActionReason\", \"Job_Status\", \"Msisdn\", \"SapReference\" }, 
+    Func<QueryContext, DbDataReader, int[], ProcessosRejeitadosCanal>, 
+    KtaPccReferenceDataApi.Infraestrutura.Context.KtaPccReferenceDataContext, 
+    False, 
+    False, 
+    True
+)"'
+[12:59:05 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Creating DbConnection.
+[12:59:05 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Created DbConnection. (37ms).
+[12:59:05 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Opening connection to database '"KTA_PCC_REFERENCE_DATA"' on server '"10.25.194.18\QASSQLSVR"'.
+[12:59:06 Microsoft.EntityFrameworkCore.Database.Connection [Error] An error occurred using the connection to database '"KTA_PCC_REFERENCE_DATA"' on server '"10.25.194.18\QASSQLSVR"'.
+[12:59:06 Microsoft.EntityFrameworkCore.Query [Error] An exception occurred while iterating over the results of a query for context type '"KtaPccReferenceDataApi.Infraestrutura.Context.KtaPccReferenceDataContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ReadOnlySpan`1 alert, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.AuthenticateAsClient(SslClientAuthenticationOptions sslClientAuthenticationOptions)
+   at Microsoft.Data.SqlClient.SNI.SNITCPHandle.EnableSsl(UInt32 options)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.EnableSsl(UInt32 info, SqlConnectionEncryptOption encrypt, Boolean integratedSecurity, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCert)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:1dbe79da-ffe4-4f8b-94ac-bf5f7193400c
+Error Number:-2146893019,State:0,Class:20"
+Microsoft.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 35 - An internal exception was caught)
+ ---> System.Security.Authentication.AuthenticationException: The remote certificate was rejected by the provided RemoteCertificateValidationCallback.
+   at System.Net.Security.SslStream.SendAuthResetSignal(ReadOnlySpan`1 alert, ExceptionDispatchInfo exception)
+   at System.Net.Security.SslStream.CompleteHandshake(SslAuthenticationOptions sslAuthenticationOptions)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.AuthenticateAsClient(SslClientAuthenticationOptions sslClientAuthenticationOptions)
+   at Microsoft.Data.SqlClient.SNI.SNITCPHandle.EnableSsl(UInt32 options)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.EnableSsl(UInt32 info, SqlConnectionEncryptOption encrypt, Boolean integratedSecurity, String serverCertificateFilename)
+   at Microsoft.Data.SqlClient.TdsParser.ConsumePreLoginHandshake(SqlConnectionEncryptOption encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean& marsCapable, Boolean& fedAuthRequired, Boolean tlsFirst, String serverCert)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:1dbe79da-ffe4-4f8b-94ac-bf5f7193400c
+Error Number:-2146893019,State:0,Class:20
+[12:59:06 KtaPccReferenceDataApi.Infraestrutura.Repositories.ProcessoRepository [Error] Erro ao carregar os dados do(a) Processos Rejeitados. Mensagem: A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: TCP Provider, error: 35 - An internal exception was caught)
+[12:59:06 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[12:59:06 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+[12:59:06 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+[12:59:06 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[12:59:06 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+[12:59:06 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+[12:59:06 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "BadRequestObjectResult", writing value of type '"TotalAgilityApi.Wrappers.PagedResponse`1[[KtaPccReferenceDataApi.Domain.Queries.Responses.ProcessosRejeitadosResponse, KtaPccReferenceDataApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[12:59:06 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)" in 2258.386ms
+[12:59:06 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[12:59:06 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OG"" completed keep alive response.
+[12:59:06 Microsoft.EntityFrameworkCore.Infrastructure [Debug] '"KtaPccReferenceDataContext"' disposed.
+[12:59:06 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Disposing connection to database '"KTA_PCC_REFERENCE_DATA"' on server '"10.25.194.18\QASSQLSVR"'.
+[12:59:06 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Disposed connection to database '""' on server '""' (3ms).
+[12:59:06 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/api/Processo/processosRejeitados""?DataInicial=2016-06-01&DataFinal=2016-06-30" - 400 null "application/json; charset=utf-8" 2386.6783ms
+[12:59:09 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL9L756OG"" received FIN.
+[12:59:09 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DL9L756OG"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[12:59:09 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OG"" disconnecting.
+[12:59:09 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DL9L756OG"" stopped.
+[13:00:25 Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[13:00:26 Microsoft.Extensions.Hosting.Internal.Host [Debug] Hosting starting
+[13:00:26 Microsoft.Hosting.Lifetime [Information] Now listening on: "http://[::]:8080"
+[13:00:26 Microsoft.AspNetCore.Hosting.Diagnostics [Debug] Loaded hosting startup assembly "KtaPccReferenceDataApi"
+[13:00:26 Microsoft.Hosting.Lifetime [Information] Application started. Press Ctrl+C to shut down.
+[13:00:26 Microsoft.Hosting.Lifetime [Information] Hosting environment: "Development"
+[13:00:26 Microsoft.Hosting.Lifetime [Information] Content root path: "/app"
+[13:00:26 Microsoft.Extensions.Hosting.Internal.Host [Debug] Hosting started
+[13:00:26 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGG"" accepted.
+[13:00:26 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGG"" started.
+[13:00:26 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGH"" accepted.
+[13:00:26 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGH"" started.
+[13:00:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.html""" - null null
+[13:00:27 Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware [Debug] Allowed hosts: "localhost;  10.25.194.18"
+[13:00:27 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/index.html"'
+[13:00:27 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[13:00:27 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGH"" completed keep alive response.
+[13:00:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 284.659ms
+[13:00:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.js""" - null null
+[13:00:27 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/index.js"'
+[13:00:27 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[13:00:27 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGH"" completed keep alive response.
+[13:00:27 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 24.0948ms
+[13:00:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/v1/swagger.json""" - null null
+[13:00:28 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] No candidates found for the request path '"/swagger/v1/swagger.json"'
+[13:00:28 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request did not match any endpoints
+[13:00:28 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGH"" completed keep alive response.
+[13:00:28 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 140.27ms
+[13:00:29 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DLAR6LOGH"" received FIN.
+[13:00:29 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DLAR6LOGG"" received FIN.
+[13:00:29 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DLAR6LOGG"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[13:00:29 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DLAR6LOGH"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[13:00:29 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGG"" disconnecting.
+[13:00:29 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGH"" disconnecting.
+[13:00:29 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGG"" stopped.
+[13:00:29 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGH"" stopped.
+[13:00:42 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGI"" accepted.
+[13:00:42 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGJ"" accepted.
+[13:00:42 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGI"" started.
+[13:00:42 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGJ"" started.
+[13:00:42 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/metrics""" - null null
+[13:00:42 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] 1 candidate(s) found for the request path '"/metrics"'
+[13:00:42 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request matched endpoint '"Prometheus metrics"'
+[13:00:42 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] Static files was skipped as the request already matched an endpoint.
+[13:00:42 Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware [Warning] Failed to determine the https port for redirect.
+[13:00:42 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"Prometheus metrics"'
+[13:00:42 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"Prometheus metrics"'
+[13:00:42 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGI"" completed keep alive response.
+[13:00:42 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/metrics""" - 200 null "text/plain; version=0.0.4; charset=utf-8" 200.0605ms
+[13:00:49 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DLAR6LOGI"" received FIN.
+[13:00:49 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DLAR6LOGJ"" received FIN.
+[13:00:49 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DLAR6LOGI"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[13:00:49 Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets [Debug] Connection id ""0HN6DLAR6LOGJ"" sending FIN because: ""The Socket transport's send loop completed gracefully.""
+[13:00:49 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGI"" disconnecting.
+[13:00:49 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGJ"" disconnecting.
+[13:00:49 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGJ"" stopped.
+[13:00:49 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGI"" stopped.
+[13:00:58 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGK"" accepted.
+[13:00:58 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGK"" started.
+[13:00:58 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request starting "HTTP/1.1" "GET" "http"://"localhost:32770""""/api/Processo/processosRejeitados""?DataInicial=2016-06-01&DataFinal=2016-06-30" - null null
+[13:00:58 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] 1 candidate(s) found for the request path '"/api/Processo/processosRejeitados"'
+[13:00:58 Microsoft.AspNetCore.Routing.Matching.DfaMatcher [Debug] Endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"' with route pattern '"api/Processo/processosRejeitados"' is valid for the request path '"/api/Processo/processosRejeitados"'
+[13:00:58 Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware [Debug] Request matched endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[13:00:58 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware [Debug] Static files was skipped as the request already matched an endpoint.
+[13:00:58 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executing endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[13:00:59 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Route matched with "{action = \"GetProcessosRejeitados\", controller = \"Processo\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[TotalAgilityApi.Wrappers.PagedResponse`1[KtaPccReferenceDataApi.Domain.Queries.Responses.ProcessosDocumentosCaducadosResponse]]] GetProcessosRejeitados(KtaPccReferenceDataApi.Domain.Queries.Requests.Request, System.Threading.CancellationToken)" on controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi").
+[13:00:59 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+[13:00:59 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "resource" filters (in the following order): ["None"]
+[13:00:59 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+[13:00:59 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+[13:00:59 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+[13:00:59 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Executing controller factory for controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi")
+[13:00:59 Microsoft.EntityFrameworkCore.Infrastructure [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+[13:00:59 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Debug] Executed controller factory for controller "KtaPccReferenceDataApi.Controllers.ProcessoController" ("KtaPccReferenceDataApi")
+[13:00:59 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' ...
+[13:00:59 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder [Debug] Attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' using the name '""' in request data ...
+[13:00:59 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataInicial"' of type '"System.String"' using the name '"DataInicial"' in request data ...
+[13:00:59 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Done attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataInicial"' of type '"System.String"'.
+[13:00:59 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataFinal"' of type '"System.String"' using the name '"DataFinal"' in request data ...
+[13:00:59 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder [Debug] Done attempting to bind property '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"."DataFinal"' of type '"System.String"'.
+[13:00:59 Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder [Debug] Done attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[13:00:59 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to bind parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[13:00:59 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to validate the bound parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"' ...
+[13:00:59 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to validate the bound parameter '"request"' of type '"KtaPccReferenceDataApi.Domain.Queries.Requests.Request"'.
+[13:00:59 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to bind parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"' ...
+[13:00:59 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to bind parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"'.
+[13:00:59 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Attempting to validate the bound parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"' ...
+[13:00:59 Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder [Debug] Done attempting to validate the bound parameter '"cancellationToken"' of type '"System.Threading.CancellationToken"'.
+[13:01:00 Microsoft.EntityFrameworkCore.Infrastructure [Debug] Entity Framework Core "8.0.8" initialized '"KtaPccReferenceDataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer":"8.0.8"' with options: "CommandTimeout=3600 "
+[13:01:00 Microsoft.EntityFrameworkCore.Query [Debug] Compiling query expression: "
+"'"DbSet<ProcessosRejeitadosCanal>().FromSql(EXEC [dbo].[sp_GetProcessosRejeitadosMotivoRejeicaoAgente] @FirstDate={0}, @EndDate={1}, __p_0)
+"'
+[13:01:00 Microsoft.EntityFrameworkCore.Query [Debug] Generated query execution expression: "
+"'"queryContext => new FromSqlQueryingEnumerable<ProcessosRejeitadosCanal>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ProcessosRejeitadosCanal.ControlActionReason (string) Required, 0], [Property: ProcessosRejeitadosCanal.Job_Status (string) Required, 1], [Property: ProcessosRejeitadosCanal.Msisdn (string) Required, 2], [Property: ProcessosRejeitadosCanal.SapReference (string) Required, 3] }
+        SELECT k.ControlActionReason, k.Job_Status, k.Msisdn, k.SapReference
+        FROM EXEC [dbo].[sp_GetProcessosRejeitadosMotivoRejeicaoAgente] @FirstDate={0}, @EndDate={1}), 
+    ReaderColumn[] { ReaderColumn<object>, ReaderColumn<object>, ReaderColumn<object>, ReaderColumn<object> }, 
+    List<string> { \"ControlActionReason\", \"Job_Status\", \"Msisdn\", \"SapReference\" }, 
+    Func<QueryContext, DbDataReader, int[], ProcessosRejeitadosCanal>, 
+    KtaPccReferenceDataApi.Infraestrutura.Context.KtaPccReferenceDataContext, 
+    False, 
+    False, 
+    True
+)"'
+[13:01:00 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Creating DbConnection.
+[13:01:00 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Created DbConnection. (57ms).
+[13:01:00 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Opening connection to database '"KTA_PCC_REFERENCE_DATA"' on server '"10.25.194.18\QASSQLSVR"'.
+[13:01:01 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Opened connection to database '"KTA_PCC_REFERENCE_DATA"' on server '"10.25.194.18\QASSQLSVR"'.
+[13:01:01 Microsoft.EntityFrameworkCore.Database.Command [Debug] Creating DbCommand for '"ExecuteReader"'.
+[13:01:01 Microsoft.EntityFrameworkCore.Database.Command [Debug] Created DbCommand for '"ExecuteReader"' (5ms).
+[13:01:01 Microsoft.EntityFrameworkCore.Database.Command [Debug] Initialized DbCommand for '"ExecuteReader"' (19ms).
+[13:01:01 Microsoft.EntityFrameworkCore.Database.Command [Debug] Executing DbCommand [Parameters=["p0='?' (DbType = DateTime2), p1='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='3600']"
+""EXEC [dbo].[sp_GetProcessosRejeitadosMotivoRejeicaoAgente] @FirstDate=@p0, @EndDate=@p1"
+[13:01:01 Microsoft.EntityFrameworkCore.Database.Command [Error] Failed executing DbCommand ("114"ms) [Parameters=["p0='?' (DbType = DateTime2), p1='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='3600']"
+""EXEC [dbo].[sp_GetProcessosRejeitadosMotivoRejeicaoAgente] @FirstDate=@p0, @EndDate=@p1"
+[13:01:01 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Closing connection to database '"KTA_PCC_REFERENCE_DATA"' on server '"10.25.194.18\QASSQLSVR"'.
+[13:01:01 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Closed connection to database '"KTA_PCC_REFERENCE_DATA"' on server '"10.25.194.18\QASSQLSVR"' (8ms).
+[13:01:01 Microsoft.EntityFrameworkCore.Query [Error] An exception occurred while iterating over the results of a query for context type '"KtaPccReferenceDataApi.Infraestrutura.Context.KtaPccReferenceDataContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.sp_GetProcessosRejeitadosMotivoRejeicaoAgente'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:0aba80f1-f391-4978-bef4-db3b16c60c0f
+Error Number:2812,State:62,Class:16"
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'dbo.sp_GetProcessosRejeitadosMotivoRejeicaoAgente'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.FromSqlQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:0aba80f1-f391-4978-bef4-db3b16c60c0f
+Error Number:2812,State:62,Class:16
+[13:01:01 KtaPccReferenceDataApi.Infraestrutura.Repositories.ProcessoRepository [Error] Erro ao carregar os dados do(a) Processos Rejeitados. Mensagem: Could not find stored procedure 'dbo.sp_GetProcessosRejeitadosMotivoRejeicaoAgente'.
+[13:01:01 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter", "Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[13:01:01 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+[13:01:01 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+[13:01:01 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[13:01:01 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Attempting to select the first formatter in the output formatters list which can write the result.
+[13:01:01 Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector [Debug] Selected output formatter '"Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"' and content type '"application/json"' to write the response.
+[13:01:01 Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor [Information] Executing "BadRequestObjectResult", writing value of type '"TotalAgilityApi.Wrappers.PagedResponse`1[[KtaPccReferenceDataApi.Domain.Queries.Responses.ProcessosRejeitadosResponse, KtaPccReferenceDataApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+[13:01:01 Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker [Information] Executed action "KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)" in 2621.8876ms
+[13:01:01 Microsoft.AspNetCore.Routing.EndpointMiddleware [Information] Executed endpoint '"KtaPccReferenceDataApi.Controllers.ProcessoController.GetProcessosRejeitados (KtaPccReferenceDataApi)"'
+[13:01:01 Microsoft.AspNetCore.Server.Kestrel.Connections [Debug] Connection id ""0HN6DLAR6LOGK"" completed keep alive response.
+[13:01:01 Microsoft.EntityFrameworkCore.Infrastructure [Debug] '"KtaPccReferenceDataContext"' disposed.
+[13:01:01 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Disposing connection to database '"KTA_PCC_REFERENCE_DATA"' on server '"10.25.194.18\QASSQLSVR"'.
+[13:01:01 Microsoft.EntityFrameworkCore.Database.Connection [Debug] Disposed connection to database '""' on server '""' (2ms).
+[13:01:01 Microsoft.AspNetCore.Hosting.Diagnostics [Information] Request finished "HTTP/1.1" "GET" "http"://"localhost:32770""""/api/Processo/processosRejeitados""?DataInicial=2016-06-01&DataFinal=2016-06-30" - 400 null "application/json; charset=utf-8" 2740.9517ms
