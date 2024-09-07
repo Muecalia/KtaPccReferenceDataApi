@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KtaPccReferenceDataApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ceb6defb5b6cc5eb3548251650d14255a377b471")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("KtaPccReferenceDataApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KtaPccReferenceDataApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

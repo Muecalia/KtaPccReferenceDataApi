@@ -23,11 +23,8 @@ builder.Services.AddDbContext<KtaPccReferenceDataContext>(options =>
 
 
 //INJECÇÃO DE DEPENDÊNCIA
-//builder.Services.AddScoped<IAgenteRepository, AgenteRepository>();
-//builder.Services.AddScoped<INumeroRepository, NumeroRepository>();
 builder.Services.AddScoped<IProcessoRepository, ProcessoRepository>();
-//builder.Services.AddScoped<IProcessoManualRepository, ProcessoManualRepository>();
-//builder.Services.AddScoped<IProcessoSuspensoRepository, ProcessoSuspensoRepository>();
+builder.Services.AddScoped<IEstatisticaRepository, EstatisticaRepository>();
 
 
 //LOGS
